@@ -174,7 +174,4 @@
 # Calcular a área quadrada
 #area = base * altura
 # Exibir o resultado
-#print(f"A área do retângulo é: {area}")
-from typing_extensions import TypeAliasType
-
-TypeAliasType
+#print(f"A área do retângulo é: {area} m²")
