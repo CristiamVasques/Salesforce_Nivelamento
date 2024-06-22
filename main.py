@@ -62,9 +62,9 @@
 
 #6) Reescreva as instruções abaixo com o mínimo de parênteses possível, mas sem alterar o resultado:
 
-#A <- 6 * (3 + 2) 
+#A <- 6 * (3 + 2)
 #B <- 2 + (6 * (3 + 2))
-#C <- 2 + (3 * 6) / (2 + 4) 
+#C <- 2 + (3 * 6) / (2 + 4)
 #D <- 2 * (8 / (3 + 1))
 #E <- 3 + (16 - 2) / (2 * (9 - 2))
 #F <- (6 / 3) + (8 / 2)
@@ -142,7 +142,7 @@
 #print(X, Y, Z) #5 6 1
 
 #8) Faça um programa que calcule a média simples (aritmética) de 3 valores quaisquer. Utilize as variáveis valor1, valor2 e valor3.
-  
+
 # Entrada dos valores
 #valor1 = float(input("Digite o primeiro valor: "))
 #valor2 = float(input("Digite o segundo valor: "))
@@ -175,4 +175,6 @@
 #area = base * altura
 # Exibir o resultado
 #print(f"A área do retângulo é: {area}")
+from typing_extensions import TypeAliasType
 
+TypeAliasType
