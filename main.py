@@ -175,3 +175,22 @@
 #area = base * altura
 # Exibir o resultado
 #print(f"A área do retângulo é: {area} m²")
+
+#11) Escreva um algoritmo que armazene o valor 10 em uma variável A e o valor 20 em uma variável B. A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados nas variáveis. Utilize o método de “Variável Auxiliar”.
+
+# Armazenando os valores iniciais
+#A = 10
+#B = 20
+#print(A, B)
+
+# Troca utilizando variável auxiliar
+#aux = A  #10
+#print(aux, A, B)
+#A = B  #10 e agora assumiu 20
+#print(aux, A, B)
+#B = aux  #20 e agora assumiu 10
+#print(aux, A, B)
+
+# Exibindo os valores após a troca
+#print("Valor em A:", A)  #20
+#print("Valor em B:", B)  #10
