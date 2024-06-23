@@ -194,3 +194,45 @@
 # Exibindo os valores após a troca
 #print("Valor em A:", A)  #20
 #print("Valor em B:", B)  #10
+
+#12) Escreva um algoritmo que armazene o valor 999 na variável “a” e o valor 555 na variável “b”. A seguir (utilizando operações matemáticas) troque os seus conteúdos fazendo com que o valor que está em “a” passe para “b” e vice-versa. Ao final, escrever os valores que ficaram armazenados nas variáveis.
+
+# Armazenando os valores iniciais
+#a = 999
+#b = 555
+# Exibindo os valores iniciais
+#print(a, b)
+# Troca utilizando operações matemáticas
+#a = a - b  # 999 - 555 = 444
+#b = a + b  # 444 + 555 = 999
+#a = b - a  # 999 - 444 = 555
+# Exibindo os valores após a troca
+#print(a, b)
+
+#13) Considerando que todos os meses tenham 30 dias, calcular o total de dias de n meses.
+# Pedir o número de meses
+#n = int(input("Digite o número de meses: "))
+# Calcular o total de dias
+#total_dias = n * 30
+# Exibir o resultado
+#print(f"O total de dias é: {total_dias} dias")
+
+#14) Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.
+
+# Pedir a idade em anos, meses e dias
+anos = int(input("Digite a idade em anos: "))
+meses = int(input("Digite a idade em meses: "))
+dias = int(input("Digite a idade em dias: "))
+# Calcular a idade em dias
+idade_em_dias = (anos * 365) + (meses * 30) + dias
+# Exibir o resultado
+print(f"A idade em dias é: {idade_em_dias} dias")
+
+
+
+
+
+
+
+
+
