@@ -220,14 +220,55 @@
 #14) Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.
 
 # Pedir a idade em anos, meses e dias
-anos = int(input("Digite a idade em anos: "))
-meses = int(input("Digite a idade em meses: "))
-dias = int(input("Digite a idade em dias: "))
+#anos = int(input("Digite a idade em anos: "))
+#meses = int(input("Digite a idade em meses: "))
+#dias = int(input("Digite a idade em dias: "))
 # Calcular a idade em dias
-idade_em_dias = (anos * 365) + (meses * 30) + dias
+#idade_em_dias = (anos * 365) + (meses * 30) + dias
 # Exibir o resultado
-print(f"A idade em dias é: {idade_em_dias} dias")
+#print(f"A idade em dias é: {idade_em_dias} dias")
 
+#15) Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário.
+
+# Pedir o salário mensal atual e o percentual de reajuste
+#salario_atual = float(input("Digite o salário mensal atual: "))
+#percentual_de_reajuste = float(input("Digite o percentual de reajuste: "))
+# Calcular o valor do novo salário
+#novo_salario = salario_atual + (salario_atual * (percentual_de_reajuste / 100))
+# Exibir o resultado
+#print(f"O valor do novo salário é: R${novo_salario:.2f}")
+                                
+#16) Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se que ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 mais 5% sobre o que ultrapassar este valor, calcular e escrever o seu salário total.
+
+# Pedir o salário fixo e o valor das vendas
+#salario_fixo = float(input("Digite o salário fixo: "))
+#valor_das_vendas = float(input("Digite o valor das vendas: "))
+# Calcular o salário total
+#if valor_das_vendas <= 1500:
+#  salario_total = salario_fixo + (valor_das_vendas * 0.03)
+#else:
+#  salario_total = salario_fixo + (1500 * 0.03) + ((valor_das_vendas - 1500) * 0.05)
+# Exibir o resultado
+#print(f"O salário total é: R${salario_total:.2f}")
+
+#17) Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total de eleitores.
+
+# Pedir o número total de eleitores, votos brancos, nulos e válidos
+#Eleitores = int(input("Digite o número total de eleitores: "))
+#Votos_Brancos = int(input("Digite o número de votos brancos: "))
+#Votos_Nulos = int(input("Digite o número de votos nulos: "))
+#Votos_Validos = int(input("Digite o número de votos válidos: "))
+# Calcular o percentual de cada tipo de voto
+#Percentual_Brancos = (Votos_Brancos / Eleitores) * 100
+#Percentual_Nulos = (Votos_Nulos / Eleitores) * 100
+#Percentual_Validos = (Votos_Validos / Eleitores) * 100
+# Exibir os resultados
+#print(f"Percentual de votos brancos: {Percentual_Brancos:.2f}%")
+#print(f"Percentual de votos nulos: {Percentual_Nulos:.2f}%")
+#print(f"Percentual de votos válidos: {Percentual_Validos:.2f}%")
+
+
+  
 
 
 
