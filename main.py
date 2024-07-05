@@ -267,7 +267,65 @@
 #print(f"Percentual de votos nulos: {Percentual_Nulos:.2f}%")
 #print(f"Percentual de votos válidos: {Percentual_Validos:.2f}%")
 
+#18) Ler um valor e escrever a mensagem “É MAIOR QUE 10!” se o valor lido for maior que 10, caso contrário escrever “NÃO É MAIOR QUE 10!”
 
+# Receber o valor
+#Valor = float(input("Digite um valor:"))
+# Verificar se o valor é maior que 10
+#if Valor > 10:
+#  print(f"O valor {Valor:.2f} é maior que 10!")
+#elif Valor == 10:
+#  print(f"O valor {Valor:.2f} é igual a 10!")
+#else:
+#  print(f"O valor {Valor:.2f} não é maior que 10!")
+
+# FUNÇÕES
+
+#19) Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
+
+# Função para receber o valor
+#def ler_valor():
+#    valor = float(input("Digite um valor: "))
+#    if valor > 0:
+#      print(f"O valor é positivo!")
+#    elif valor < 0:
+#      print(f"O valor é negativo!")
+#    else:
+#      return print(f"O valor é zero!")
+
+#ler_valor()
+
+#Leia a base e a altura de um triângulo e calcule a sua área usando a fórmula: área = (base * altura) / 2.
+
+# Função para calcular a área do triângulo
+#def calcular_area_triangulo(base, altura):
+#    area = (base * altura) / 2
+#    return area
+
+# Leitura da base e altura do triângulo
+#base = float(input("Digite a base do triângulo: "))
+#altura = float(input("Digite a altura do triângulo: "))
+# Cálculo da área do triângulo
+#area = calcular_area_triangulo(base, altura)
+# Exibição do resultado
+#print(f"A área do triângulo é: {area} unidades de área")
+
+#Faça um algoritimo que calcule o valor de impostos
+
+def calcular_imposto():
+  Valor_Nota = float(input("Digite o valor da nota: "))
+  Valor_Imposto = (Valor_Nota * 15.06) / 100
+  print(f"O valor do imposto é: {Valor_Imposto:.2f}")
+
+# Chamada da função
+calcular_imposto()
+
+
+
+
+
+
+  
   
 
 
