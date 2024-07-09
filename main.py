@@ -310,15 +310,8 @@
 # Exibição do resultado
 #print(f"A área do triângulo é: {area} unidades de área")
 
-#Faça um algoritimo que calcule o valor de impostos
 
-def calcular_imposto():
-  Valor_Nota = float(input("Digite o valor da nota: "))
-  Valor_Imposto = (Valor_Nota * 15.06) / 100
-  print(f"O valor do imposto é: {Valor_Imposto:.2f}")
 
-# Chamada da função
-calcular_imposto()
 
 
 
